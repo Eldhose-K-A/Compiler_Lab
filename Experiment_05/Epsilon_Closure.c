@@ -17,7 +17,7 @@ int searchVisited(int v){
 	for(int y=0;y<=vmax;++y)
 		if(visitedarray[y]==v)
 			return 1;
-	return -1;
+	return 0;
 }
 
 int main(int argc, char *argv[]){
